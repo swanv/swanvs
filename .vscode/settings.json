@@ -3,5 +3,11 @@
         "\\back-end\\venv",
         "\\venv"
     ],
-    "python.pythonPath": "back_end\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "back_end\\venv\\Scripts\\python.exe",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Args": [
+        "--disable=E1101",
+        "--max-line-length=120"
+    ]
 }
