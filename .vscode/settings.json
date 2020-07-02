@@ -9,5 +9,14 @@
     "python.linting.flake8Args": [
         "--disable=E1101",
         "--max-line-length=120"
-    ]
+    ],
+     
+    "vetur.validation.template": false,
+  
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  
+    "vetur.experimental.templateInterpolationService": true,
+  
+    "vetur.format.options.tabSize": 2
+
 }
